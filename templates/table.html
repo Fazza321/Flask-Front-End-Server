@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>'meterusage'</th>
+    <th>'time'</th>
+  </tr>
+  {% for meter in data %}
+    <tr>
+      <td>{{ meter[0] }}</td>
+      <td>{{ meter[1] }}</td>
+    </tr>
+  {% endfor %}
+</table>
